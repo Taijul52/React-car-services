@@ -1,0 +1,90 @@
+.app__quataion {
+  background-color: var(--color-indigo);
+  background-image: url("../../assets/map-bg.png");
+  width: 100%;
+  display: block;
+
+  padding: 4rem 0;
+  position: relative;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  margin-top: 4rem;
+}
+
+.app__quataion-box h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  line-height: 1.2;
+  display: block;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 4rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 1.75rem;
+  }
+}
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .app__quataion-box h2 {
+    font-size: 2rem;
+  }
+}
+.app__quataion-box h4 {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+.app__quataion-box {
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+.app__quataion-box a {
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  background: var(--color-yellow);
+  padding: 0 50px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-inline: 1rem;
+  font-weight: 800;
+  color: var(--color-dark);
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  span {
+    margin-left: 12px;
+  }
+  &:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 767px) {
+  .app__quataion-box-quote {
+    display: flex;
+    justify-content: center;
+  }
+  .app__quataion-box-quote a {
+    padding: 10px 20px;
+    height: auto;
+    line-height: 1;
+  }
+}
